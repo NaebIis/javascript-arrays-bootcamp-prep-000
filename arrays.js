@@ -18,11 +18,16 @@ function destructivelyAddElementToEndOfArray(array, element) {
  return array
 }
 
+
 function accessElementInArray(array, index){
   console.log (array[index[3]])
   return array
 }
- 
+
+
+ describe('accessElementInArray(array, index)', () => {
+    it('accesses the element in array at the given index', () => {
+      expect(accessElementInArray([1, 2, 3], 2)).to.equal(3)
 
 
  
