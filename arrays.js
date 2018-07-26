@@ -20,18 +20,12 @@ function destructivelyAddElementToEndOfArray(array, element) {
 
 
 function accessElementInArray(array, index){
-  console.log (array[index[3]])
+  [array(index[3])]
   return array
 }
 
 
- describe('accessElementInArray(array, index)', () => {
-    it('accesses the element in array at the given index', () => {
-      expect(accessElementInArray([1, 2, 3], 2)).to.equal(3)
 
-describe('destructivelyAddElementToEndOfArray(array, element)', () => {
-    it('adds an element to the end of an array', () => {
-      expect(destructivelyAddElementToEndOfArray([1], 'foo')).to.eql([1, 'foo'])
  
  
  
